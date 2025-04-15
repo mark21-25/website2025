@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Transform Your Home</title>
+    <link rel="shortcut icon" href="logo.jpg">
+    <link rel="shortcut icon" href="logo.ico">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('pg5.jpg'); /* Replace with your image URL */
+            background-size: cover;
+            background-position: center;
+            margin: 0;
+            padding: 20px;
+            color: black; /* Set text color to black */
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: #555;
+            line-height: 1.6;
+            text-align: center;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            margin-top: 20px;
+        }
+        input, textarea {
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            background-color: #5cb85c;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #4cae4c;
+        }
+        .contact-info {
+            margin-top: 30px;
+            background: #e2e2e2;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .back-button {
+            display: block; /* Center the button */
+            margin: 20px auto; /* Center the button */
+            padding: 10px 20px;
+            background-color: #007BFF; /* Bootstrap primary color */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            width: fit-content; /* Adjust width to fit content */
+        }
+        .back-button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+
+
+<div class="container">
+    <h1>Get in Touch</h1>
+    <p>Ready to transform your home and your life? Contact us today to schedule a consultation and take the first step towards creating your dream home.</p>
+    
+    <form id="contactForm">
+        <input type="text" placeholder="Name" required>
+        <input type="email" placeholder="Email" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <textarea placeholder="Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+    </form>
+
+    <div class="contact-info">
+        <h2>Contact Information</h2>
+        <p>Get in touch with us today to learn more about our home renovation services and schedule a consultation.</p>
+        <p style="text-align: justify;"><strong>Phone Number:</strong> 09926690975</p>
+        <p style="text-align: justify;"><strong>Email Address:</strong> transformyourhometransformyourlife@gmail.com</p>
+        <p style="text-align: justify;"><strong>Physical Address:</strong> Maharlika Highway, brgy.  Rawis, Calbayog city, Samar 6710,Philippines</p>
+    </div>
+</div>
+
+<a href="javascript:history.back()" class="back-button">Back</a> <!-- Back button -->
+
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the default form submission
+        alert('Your message has been sent! We will get back to you shortly.');
+        // Optionally, you can reset the form here
+        this.reset();
+    });
+</script>
+
+</body>
+</html>

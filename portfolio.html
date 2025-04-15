@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Transform Your Home</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('bac1.jfif'); /* Correctly reference the image */
+            background-size: cover; /* Cover the entire body */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            background-position: center; /* Center the image */
+            margin: 0;
+            padding: 30px;
+            color: #333; /* Optional: Set a default text color */
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: white; /* White background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Adjust shadow for a more pronounced effect */
+            color: #333; /* Set text color to dark for contrast */
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+            font-family: 'Arial', sans-serif; /* Specify font family */
+            font-size: 2.5em; /* Adjust font size for h1 */
+            margin: 20px 0; /* Add margin for spacing */
+        }
+
+        h2 {
+            font-size: 2em; /* Adjust font size for h2 */
+            margin: 15px 0; /* Add margin for spacing */
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+            text-align: center;
+            font-family: 'Georgia', serif; /* Specify font family */
+            font-size: 1.2em; /* Adjust font size for paragraphs */
+            margin: 10px 0; /* Add margin for spacing */
+            padding: 0 15px; /* Add padding for better text flow */
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; /* Center images */
+            margin-top: 20px;
+        }
+
+        .gallery img {
+            width: 40%; /* Set a specific width for images */
+            margin: 10px; /* Adjust margin for spacing */
+            border-radius: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            max-width: 100%; /* Ensure images are responsive */
+        }
+
+        .back-button {
+            display: block;
+            margin: 20px auto; /* Center the button */
+            padding: 10px 20px;
+            background-color: #007BFF; /* Button color */
+            color: white; /* Text color */
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none; /* Remove underline */
+            font-size: 1.2em; /* Font size */
+            cursor: pointer; /* Pointer cursor on hover */
+            width: fit-content; /* Adjust width to fit content */
+        }
+
+        .back-button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+  
+    <h1>Our Portfolio</h1>
+    <p>Take a look at some of our recent projects and see the transformation for yourself.</p>
+    
+    <div class="gallery">
+        <img src="pic1.jfif" alt="Project 1">
+        <img src="pic2.jfif" alt="Project 2">
+        <img src="pic3.jfif" alt="Project 3">
+        <img src="pic4.jfif" alt="Project 4">
+    </div>
+</div>
+    <a href="javascript:history.back()" class="back-button">Back</a> <!-- Back button -->
+</body>
+</html>

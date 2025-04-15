@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Transform Your Home</title>
+    <link rel="shortcut icon" href="logo.jpg">
+    <link rel="shortcut icon" href="logo.ico">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('pg2.jpg'); /* Ensure this path is correct */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            margin: 0;
+            padding: 20px;
+            color: black; /* Change text color for better contrast */
+            line-height: 1.6; /* Improve readability */
+        }
+
+        /* Optional: Add a gradient overlay for better text visibility */
+        body::before {
+            content: '';
+            position: fixed; /* Cover the entire viewport */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+            z-index: 1; /* Place it behind the content */
+        }
+
+        .container {
+            position: relative; /* Position relative to allow z-index to work */
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            z-index: 2; /* Ensure the container is above the overlay */
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .team-members {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .team-members li {
+            background: #e2e2e2;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007BFF; /* Bootstrap primary color */
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none; /* Remove underline */
+            font-size: 16px;
+            z-index: 2; /* Ensure the button is above the overlay */
+        }
+
+        .back-button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>Our Story</h1>
+    <p>At Transform Your Home, Transform Your Life, we're passionate about helping homeowners transform their living spaces into beautiful, functional areas that enhance their lifestyle. Our team of experts has years of experience in home renovation, and we're committed to delivering high-quality results that exceed your expectations.</p>
+</div>
+
+<div class="container" style="margin-top: 20px;">
+    <h1>Meet Our Team</h1>
+    <p>Our team of experts has years of experience in home renovation, and we're committed to delivering high-quality results that exceed your expectations.</p>
+    
+    <h2>Team Members</h2>
+    <ul class="team-members">
+        <li>Jemaila Borquin, Project Manager</li>
+        <li>Mary Grace Orquin, Lead Designer</li>
+        <li>Mary Grace Orquin, Employee</li>
+    </ul>
+    <a href="javascript:history.back()" class="back-button">Back</a> <!-- Back button -->
+
+</div>
+</body>
+</html>

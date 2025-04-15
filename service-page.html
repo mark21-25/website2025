@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Services - Transform Your Home</title>
+    <link rel="shortcut icon" href="logo.jpg">
+    <link rel="shortcut icon" href="logo.ico">
+    <style>
+       body {
+    font-family: Arial, sans-serif;
+    background-image: url('pg3.jpg'); /* Replace with your image URL */
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-color: #f4f4f4; /* Fallback color */
+    margin: 0;
+    padding: 20px;
+    color: #333; /* Default text color */
+    line-height: 1.6; /* Improve readability */
+}
+
+/* Optional: Add a gradient overlay for better text visibility */
+body::before {
+    content: '';
+    position: fixed; /* Cover the entire viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+    z-index: 1; /* Place it behind the content */
+}
+
+.container {
+    position: relative; /* Position relative to allow z-index to work */
+    max-width: 800px;
+    margin: auto;
+    background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 2; /* Ensure the container is above the overlay */
+}
+
+/* Additional styles for headings, paragraphs, and buttons can be added here */
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+        p {
+            color: black;
+            line-height: 1.6;
+        }
+        .services-list {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services-list li {
+            background: #e2e2e2;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .back-button {
+            display: block; /* Center the button */
+            margin: 20px auto; /* Center the button */
+            padding: 10px 20px;
+            background-color: #007BFF; /* Bootstrap primary color */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+            width: fit-content; /* Adjust width to fit content */
+        }
+        .back-button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h1>About Us</h1>
+    <p>At Transform Your Home, Transform Your Life, we're passionate about helping homeowners transform their living spaces into beautiful, functional areas that enhance their lifestyle. Our team of experts has years of experience in home renovation, and we're committed to delivering high-quality results that exceed your expectations.</p>
+</div>
+
+<div class="container" style="margin-top: 20px;">
+    <h1>Services</h1>
+    
+    <h2>Kitchen Renovations</h2>
+    <p>Our expert team offers a wide range of kitchen renovation services, including cabinet installation, countertop installation, and more.</p>
+    <ul class="services-list">
+        <li>Cabinet installation</li>
+        <li>Countertop installation</li>
+        <li>Flooring installation</li>
+    </ul>
+
+    <h2>Bathroom Renovations</h2>
+    <p>Our expert team offers a wide range of bathroom renovation services, including tile installation, fixture installation, and more.</p>
+    <ul class="services-list">
+        <li>Tile installation</li>
+        <li>Fixture installation</li>
+        <li>Plumbing installation</li>
+    </ul>
+    <a href="javascript:history.back()" class="back-button">Back</a> <!-- Back button -->
+</div>
+  
+</body>
+</html>

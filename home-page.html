@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Renovation Services</title>
+    <link rel="shortcut icon" href="logo.jpg">
+    <link rel="shortcut icon" href="logo.ico">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('pg1.jpg'); /* Ensure this path is correct */
+            background-size: cover; /* Cover the entire viewport */
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Prevent the image from repeating */
+            margin: 0;
+            padding: 20px;
+            color: black; /* Change text color for better contrast */
+            line-height: 1.6; /* Improve readability */
+        }
+
+        /* Optional: Add a gradient overlay for better text visibility */
+        body::before {
+            content: '';
+            position: fixed; /* Cover the entire viewport */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5); /* Black overlay with 50% opacity */
+            z-index: 1; /* Place it behind the content */
+        }
+
+        .container {
+            position: relative; /* Position relative to allow z-index to work */
+            max-width: 800px;
+            margin: auto;
+            background: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+            z-index: 2; /* Ensure the container is above the overlay */
+        }
+
+        h1, h2 {
+            color: #333;
+            text-align: center;
+        }
+
+        p {
+            color: #555;
+            line-height: 1.6;
+        }
+
+        .services, .benefits {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .services li, .benefits li {
+            background: #e2e2e2;
+            margin: 10px 0;
+            padding: 10px;
+            border-radius: 5px;
+        }
+
+        .back-button {
+            display: block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background-color: #007BFF; /* Bootstrap primary color */
+            color: white;
+            text-align: center;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none; /* Remove underline */
+            font-size: 16px;
+        }
+
+        .back-button:hover {
+            background-color: #0056b3; /* Darker shade on hover */
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    
+    <h1>Home Renovation Services</h1>
+    <p>At Transform Your Home, Transform Your Life, we specialize in transforming homes into beautiful, functional spaces that enhance your lifestyle. Our expert team offers a wide range of renovation services, including kitchen and bathroom renovations, bedroom and living room makeovers, and more.</p>
+    
+    <h2>Our Services</h2>
+    <ul class="services">
+        <li>Kitchen Renovations</li>
+        <li>Bathroom Renovations</li>
+        <li>Bedroom Renovations</li>
+        <li>Living Room Renovations</li>
+        <li>Outdoor Renovations</li>
+    </ul>
+</div>
+
+<div class="container" style="margin-top: 20px;">
+    <h1>Why Choose Us?</h1>
+    <p>At Transform Your Home, Transform Your Life, we're dedicated to providing exceptional service and unparalleled craftsmanship. Our team of experts has years of experience in home renovation, and we're committed to delivering high-quality results that exceed your expectations.</p>
+    
+    <h2>Benefits of Choosing Us</h2>
+    <ul class="benefits">
+        <li>Expert craftsmanship</li>
+        <li>Personalized service</li>
+        <li>Competitive pricing</li>
+        <li>Warranty and guarantee</li>
+    </ul>
+    <a href="javascript:history.back()" class="back-button">Back</a> <!-- Back button -->
+</div>
+
+</body>
+</html>
